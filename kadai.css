@@ -5,13 +5,13 @@
   padding: 0;
 }
 
-.header {
+header {
   height: 50px;
   background-color: #ff9a4b;
 }
 
-.main {
-  display:flex;
+main {
+  display: flex;
   width: 960px;
   margin: 50px auto;
 }
@@ -30,21 +30,21 @@
 
 .step-img1 {
   height: 150px;
-  background-image:url(flow01.png);
+  background-image:url(kadai/flow01.png);
   background-position: bottom;
   background-size: cover;
 }
 
 .step-img2 {
   height: 150px;
-  background-image:url(flow02.png);
+  background-image:url(kadai/flow02.png);
   background-position: bottom;
   background-size: cover;
 }
 
 .step-img3 {
   height: 150px;
-  background-image:url(flow03.png);
+  background-image:url(kadai/flow03.png);
   background-position: bottom;
   background-size: cover;
 }
@@ -61,31 +61,23 @@
   margin: 15px 0 5px;
 }
 
-.footer {
+footer {
   height: 50px;
   background-color: #aaa;
 }
 
 
 @media screen and (max-width: 425px) {
-  .header {
+header {
     width: 100%;
   }
   
-.main {
+main {
   width: 100%;
+  margin: 50px
 }
 
 .step-box {
   width: 90%;
   margin: 20px;
-  padding: 10px;
-}
-
-.step-box:l {
-  margin-bottom:50px;
-}
-
-.footer {
-   margin-bottom: 50px;
 }
