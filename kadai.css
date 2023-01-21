@@ -77,13 +77,13 @@
 }
 
 .step-box {
-  width: 50%;
-  margin-right: 20px;
+  width: 90%;
+  margin: 20px;
   padding: 10px;
 }
 
-.step-box:last-child {
-  margin-right: 0;
+.step-box:l {
+  margin-bottom:50px;
 }
 
 .footer {
