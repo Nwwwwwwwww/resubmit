@@ -79,5 +79,14 @@ main {
 
 .step-box {
   width: 90%;
-  margin: 20px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+}
+
+.step-box:last-child {
+  margin-bottom: 0px;
+}
+
+footer {
+  width: 100%;
 }
